@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <!-- Štěpán Potiorek -->
+    <!--stepan.potiorek@gmail.com-->
+    <!-- stephen03460 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Travel Guide</title>
+</head>
+<body>
+    <header>
+        <div class="flag-icon">
+            <img src="images/philippines.png" alt="flag">
+        </div>
+        <nav> 
+            <ul>
+            <li><a href="https://www.tripadvisor.com/Attractions-g294245-Activities-Philippines.html" target="_blank">Places</a></li>
+            <li><a href="https://www.getyourguide.com/-l169047/?cmp=ga&cq_src=google_ads&cq_cmp=16370944704&cq_con=135030239418&cq_term=top%20things%20to%20do%20philippines&cq_med=&cq_plac=&cq_net=g&cq_pos=&cq_plt=gp&campaign_id=16370944704&adgroup_id=135030239418&target_id=kwd-476556926362&loc_physical_ms=21498&match_type=e&ad_id=589740777336&keyword=top%20things%20to%20do%20philippines&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gad_source=1&gclid=Cj0KCQiAvP-6BhDyARIsAJ3uv7Ze-VFzcUbIZMjtsfz63jsCR4U0egkr0JpLYcf-VG0IAp3Hdl7Y4hAaAhicEALw_wcB" target="_blank">Activities</a></li>
+            <li><a href="https://www.facebook.com/groups/246217182134367/" target="_blank">Community</a></li>
+            <li><a href="https://www.tripadvisor.com/ShowUserReviews-g298573-d19345917-r933840503-Guide_to_the_Philippines-Manila_Metro_Manila_Luzon.html" target="_blank">Reviews</a></li>
+            </ul>
+        </nav>
+        
+        <div class="switcher-box">
+            <span class="switcher-description">
+                <p>Light Mode</p>
+                <i class="fa-regular fa-sun, fa-moon"></i>
+            </span>
+
+           <!-- Rounded switch -->
+        <label class="switch">
+        <input type="checkbox">
+         <span class="slider round"></span>
+        </label>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <i class="fa-solid fa-plane"></i> -->
+          </div>
+    </header>
+    <main>
+       
+        <!--Title-->
+        <div class="title">
+        <h1 id="dynamic-title">Philippines</h1>
+    </div>
+    
+
+        <section">
+        <div class="image-wrapper">
+        <div class="image-item">
+            <img src="images/philippines-masskara-festival.webp" alt="philippines-masskara-festival">
+        <h3 class="people-text">People</h3>
+        <p class="people-text">Filipino people are known for their warmth, hospitality, and strong family ties. Despite facing challenges, Filipinos are admired for their resilience and cheerful outlook on life, often expressed through their love of music, festivals, and shared laughter.</p>
+        </div>
+        <div class="image-item">
+        <img src="images/shutterstock_129199910-e1419291409592.jpg" alt="beach">
+        <h3 class="beaches-text">Islands</h3>
+        <p class="beaches-text">The Philippines is an archipelago of over 7,600 islands, known for its stunning natural beauty and diverse landscapes. From pristine white-sand beaches like those in Boracay and Palawan to lush mountains and rice terraces in Banaue, the islands showcase a variety of breathtaking sceneries.</p>
+        </div>
+        <div class="image-item">
+        <img src="images/a-filipino-feast-86ab4772716d4839aca800b3c14e7952.jpg" alt="food">
+        <h3 class="food">Food</h3>
+        <p class="food">Filipino food is a flavorful blend of indigenous, Asian, Spanish, and American influences, creating a cuisine that’s rich, diverse, and comforting. It is characterized by the balance of sweet, sour, salty, and savory flavors, often combined in one dish.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="form-container">
+      <div class="image-container">
+        <img src="images/c623b60ece93aea2487d77a37c51925d-149066309-1024x683.webp" alt="Traditional Car">
+      </div>
+      <div class="form-section">
+        <h2>Get in touch with a Travel Agent</h2>
+
+          <p>For an easier and more convenient travel experience, please share your details and one of our travel agents will be happy to assist you.</p>
+        <form id="registration-form">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="Enter your first name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Enter your last name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <span id="email-error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Re-enter your password" required>
+            <span id="password-error-message"></span>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+           
+     </main>
+
+     <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>My Website</h2>
+          <p>www.IChoosePhilippines.com</p>
+        </div>
+    
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>© 2025 My Website. All Rights Reserved.</p>
+      </div>
+  <!-- Back to Top Button -->
+  <div id="back-to-top" class="back-to-top">
+  ↑
+  </div>
+
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
